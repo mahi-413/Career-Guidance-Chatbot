@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting,in which standard you are? ",
+        "Hi there, In which class you are?",
+        "Hi there, in which standard you are?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "I am in 11th class ",
+        "I am in 12th class "
+        
+      ],
+      "responses": [
+        "Great! Tell me about your hobbies.",
+        "Amazing! tell me about your interests."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "I like to explore various AI tools online",
+        "I like to do problem solving"
+        
+      ],
+      "responses": [
+        "Great! tell me about your past grades.",
+        "Good!! what were your last percentages?"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "I got 90%.",
+        "I got 92%."
+      ],
+      "responses": [
+        "So according to your grades and area of interest you should persue B.Tech in Computer Science from Shiv Nadar University, Noida.",
+        "So according to your grades and area of interest you should persue B.Tech in Computer Science from VIT Vellore."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Can I get connected to the university?",
+        "Can I get more guidance through calls?"
+  
+      ],
+      "responses": [
+        "Sure! for that you need to take the premium plan.",
+        "Great! take the premium to get connected."
+      ]
+    }
+  ]
+}
